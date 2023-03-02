@@ -25,7 +25,7 @@ for j in range (313):
 ```
 now we have datasets for train yolov7. code for training available in [objectdetection.ipynb](objectdetection.ipynb).
 ## OCR
-after training yolov7 we jump into step three and train a model for reading the lisence plate detected with yolov7 in this step even you train better model the result we be better after training we save model.
+after training yolov7 we jump into step three and train a model for reading the lisence plate detected with yolov7 in this step however you train better model the result we be better after training we save model.
 
 now we have every model we need for reading persian lisence plate 
 
