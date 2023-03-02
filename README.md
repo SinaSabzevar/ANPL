@@ -23,4 +23,4 @@ for j in range (313):
         f.closed
         f2.closed
 ```
-now we have datasets for train yolov7. code for training available in [objectdetection.ipnyn](objectdetection.ipnyn).
+now we have datasets for train yolov7. code for training available in [objectdetection.ipynb](objectdetection.ipynb).
