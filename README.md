@@ -24,3 +24,14 @@ for j in range (313):
         f2.closed
 ```
 now we have datasets for train yolov7. code for training available in [objectdetection.ipynb](objectdetection.ipynb).
+## OCR
+after training yolov7 we jump into step three and train a model for reading the lisence plate detected with yolov7 in this step even you train better model the result we be better after training we save model.
+
+now we have every model we need for reading persian lisence plate 
+
+## ANPL
+we can detect and reading lisence plate from images video or webcam.
+
+input image(or video) first should feed into object detection model we train and saved befor then ddetected isence plate should preprocess and crop and reshape in right size and format for feeding into ocr model after that we feed the preprocessed image into ocr madel we saved before and read the lisence plate in the image(or video)
+
+code for this part available in [objectdetection.ipynb](objectdetection.ipynb).
